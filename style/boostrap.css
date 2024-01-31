@@ -1,0 +1,22 @@
+.m_most{
+    background-color: rgb(72, 26, 164)
+    /*box color*/
+}
+.m_form_bc{
+    color:  rgb(158, 97, 31);
+}
+.m_bg_dark{
+    background-color: #665ed6;
+}
+.m_bg_dark_light{
+    background-color: #0E0C23;;
+}
+.m_text_primary{
+    color: #703BD9;
+}
+.m_primary_light{
+    background: #EFE9FB;
+}
+.button_bg{
+    background: #0E0C23
+}

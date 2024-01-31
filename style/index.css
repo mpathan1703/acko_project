@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.uni{
+    background-color: #5920C5;
+}
+.m_main_container{
+  
+}
+
+
+.m_head{
+    background-color: #5920C5;
+   
+ /* margin: auto; */
+
+
+}
+.nav_bar{
+    display: flex;
+   
+
+}
+.nav_container{
+    /* width: 60%; */
+    /* background-color: aqua; */
+}
+.nav_bar a{
+    width: 60%;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white; 
+}
+
+.items{
+    margin-left: 65px;
+    margin-top: 20px;
+    font-weight: 500;
+    /* letter-spacing: 2; */
+   
+   
+}
+.m_logo{
+    height: 50%;
+    width: 80%;
+ 
+}
+.nav_container .navleft{
+     margin: auto;
+     font-weight: 600;
+
+}
+ .navleft .btn{
+
+ height: 40px;
+ width:90px;
+ background-color:white;
+ font-weight: 400; 
+ }
+ .m_car_services{
+    width: 35%;
+    margin: 20px auto;
+    cursor: pointer;
+ margin-bottom: 0;
+ padding-bottom: 0;
+   }
+.m_car_services .service{
+/*     
+    color: #5920C5; */
+    color:white;
+    font-size: 13px;
+    /* margin-top: 6px; */
+}
+
+.service .pro_service{
+    background-color:rgb(74, 31, 158);
+    height: 50px;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+/* third container*/
+.m_car_service_banner{
+   margin: 0;
+   padding: 0;
+
+}
+.m_car_service_banner .m_left_img{
+    width: 25%;
+}
+
+.m_car_service_banner .m_right_img{
+    width: 25%;
+}
+.m_form_01{
+    width: auto;
+}
+.m_commen_class .m_form_01{
+    border-radius: 15px;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+ .m_form_01 .input_container{
+    height: 70%;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    border-radius: 15px;
+    height: fit-content;
+    background-color: white;
+    margin-top: 15px;
+}
+.m_form_01 .input_container input{
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+.m_form_01 .input_container button{
+padding: 10px 30px;
+height: 50px;
+}
+.m_form_01 .input_container button:hover{
+    background: none;
+    color: inherit;
+}
+.m_car_services .check_price_container{
+height: 100%;
+width: 100%;
+background-color: black;
+
+}
+.m_car_service_banner .form_2{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    background-color:rgb(74, 31, 158);;
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+}
+.form_2 .m_cont{
+line-height: none;
+margin: none;
+}
+
+
+/* vidio section */
+   
+.m_video_container{
+    width: 70%;
+    margin: auto;
+}
+.m_video_section .m_video_box{
+    height: 350px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+.m_video_section .m_video_box video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;    
+}
+.m_video_section .m_thumbnail_video{
+ height: 80px;
+ width: 100%;
+}
+.m_video_section .m_thumbnail_video video{
+    width: 100%;
+    border-radius: 12px;
+}
+.m_video_section h6{
+    line-height: 25px;
+}
+.m_video_section span{
+    font-weight: 200 !important;
+}
+.m_video_list{
+    max-height: 350px;
+    overflow-y: auto;
+}
+.m_video_list::-webkit-scrollbar-thumb{
+    background: white !important;
+    width: 5px;
+    border-radius: 10px;
+}
+.m_video_list::-webkit-scrollbar-track{
+    background-color: #0E0C23 !important;
+    width: 5px;
+    border-radius: 10px;
+}
+.m_video_list::-webkit-scrollbar{
+    background-color: #0E0C23 !important;
+    width: 5px;
+    border-radius: 10px;
+}
+.m_video_list h6{
+    font-size: 14px;
+}      /* vehicle section*/
+      .m_vehicle_container{
+        border-top: 5px solid #a689dc;
+      }
+      .m_vehicle_container .m_acko_bold{
+        border-bottom: #5920C5  5px solid;
+      }
+
+ /* .partner_container .poster_cont{
+    height: 100px;
+    width: 100px;
+    background: #0E0C23;
+ }    
+
+ .partner_container .img_cont{
+    height: 150px;
+    width: 120px;
+    border: 2px solid black;
+ } */
+ .official_patner .img_cont{
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+ }
+ .official_patner .img_cont img{
+    height: 100%;
+    width: 100%;
+ }
+ .review_section{
+    background: #f6f7fb;
+ }
+ .review_container{
+    margin: auto;
+ }
+
+ .review_section .m_review{
+    color: orange;
+ }
+ .review_container .user_img{
+    height: 35px;
+    width: 35px;
+    padding-right: 5px;
+    border-radius: 50%;
+
+ }
+ .review_container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  
+   
+ }
+  .review_container .user_info h6 {
+   margin-left: 10px;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 0;
+
+  }
+  .review_container .user_info small{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  /* app section*/
+  .m_app_container{
+    width: 50% !important;
+    margin: auto;
+    margin-top: 50px;
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap !important;
+  }
+  .m_app_container .m_app{
+    width: 12%;
+    height: 45px;
+    margin-top: 20px;
+ 
+  }
+  .m_app_container img {
+    height: 100%;
+    width:100%
+  }
+  /* footer*/
+
+
+  .download_section p{
+    font:13px;
+    font-weight: 400px;
+    margin: auto;
+  }
+  .download_section ul{
+    list-style: none;
+    display: flex;
+    gap: 5 !important;
+
+  }
+  .download_section ul a{
+    text-decoration: none;
+  }
+    
+  .download_section .m_social_icons{
+    width: 35px;
+    height: 35px;
+    background: #F0F0F6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    color: #000 !important;
+  }
+  .m_font_size {
+    font-size: 13px !important;
+}
